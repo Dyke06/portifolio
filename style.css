@@ -8,6 +8,8 @@
     font-family: "roboto";
 }
 
+
+/* Menu de navegação */
 .background{
     background: rgba(3,0,12,0.7) url(imagens/ciano.jpg);
     background-blend-mode: darken;
@@ -20,7 +22,7 @@
 }
 
 .logo{
-    margin-right: 390px;
+    margin-right: 190px;
 }
 
 
@@ -73,10 +75,12 @@ header{
     gap: 28rem;
 }
 
+/* Início - container */
 .main-container{
     margin-left: 14%;
     margin-top: 10%;
     max-width: 100%;
+    display: flex;
 }
 
 .main-container h1{
@@ -118,15 +122,16 @@ header{
 }
 
 .i1{
-    position: absolute;
-    top: 250px;
-    left: 1150px;
+    margin-left: 300px ;
+    align-items: center;
 }
 
 .i1 img{
     width: 350px;
     height: 100%;
 }
+
+/* Sobre nós */
 
 .background-sobre{
     background-image: linear-gradient(to right, #001d1f,#01696e);
@@ -142,20 +147,45 @@ header{
     width: 500px;
     padding: 10px 0px;
     line-height: 30px;
+    margin-left: 90px;
 }
 
 .texto-sobre h1{
-    font-size: 50px;
+    font-size: 60px;
     padding-bottom: 20px;
     color: white;
 }
 
 .texto-sobre h2{
+    font-size: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .texto-sobre p{
     color: white;
     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.texto-sobre button{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #53DEE0;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.texto-sobre button:hover{
+    border: 1px solid #40ACAD;
+    background: none;
+    color: hsl(184, 100%, 58%);
+    transition: 1s;
 }
 
