@@ -72,7 +72,7 @@ header{
     padding-top: 2rem;
     align-items: center;
     text-align: center;
-    gap: 28rem;
+    gap: 42rem;
 }
 
 /* Início - container */
@@ -85,7 +85,7 @@ header{
 
 .main-container h1{
     color: white;
-    font-size: 60px;
+    font-size: 72px;
     letter-spacing: 3px;
 }
 
@@ -122,7 +122,7 @@ header{
 }
 
 .i1{
-    margin-left: 300px ;
+    margin-left: 450px ;
     align-items: center;
 }
 
@@ -134,7 +134,7 @@ header{
 /* Sobre nós */
 
 .background-sobre{
-    background-image: linear-gradient(to right, #001d1f,#01696e);
+    background-color: rgb(3, 32, 44);
     width: 100%;
     padding: 100px 0px;
     display: flex;
@@ -189,3 +189,56 @@ header{
     transition: 1s;
 }
 
+/* Projetos */
+
+.background-projetos{
+    height: 100vh;
+    background-color: rgb(0, 99, 102);
+}
+
+.h1 h1{
+    width: 270px;
+    font-size: 66px;
+    font-weight: bolder;
+    color: #ffffff;
+    letter-spacing: 5px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.cards{
+    background-color: rgb(3, 32, 44);
+    margin-left: 18%;
+    margin-top: 6%;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid   rgb(29, 229, 255);
+}
+
+.card-1 h1{
+    padding-top: 30px;
+    padding-bottom: 130px;
+    color: white;
+    font-size: 50px;
+}
+
+.card-1 h2{
+    border: 1px solid rgb(29, 229, 255);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.card-1 button{
+    margin-top: 140px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: hsl(184, 100%, 58%);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
